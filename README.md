@@ -1,4 +1,7 @@
-# QQ AI 女友机器人 — ATRI（亚托莉）
+致谢: [GzSakura1337/ATRI-skills](https://github.com/GzSakura1337/ATRI-skills) ·
+     [NapCatQQ](https://github.com/NapNeko/NapCatQQ) · 《ATRI -My Dear Moments-》
+
+# QQ AI 女友机器人 — ATRI（亚托莉） 
 
 一个基于 NapCatQQ + DeepSeek 的 QQ 机器人，搭载《ATRI -My Dear Moments-》原典级角色扮演引擎。
 
