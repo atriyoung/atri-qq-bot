@@ -1,4 +1,4 @@
-致谢: [GzSakura1337/ATRI-skills](https://github.com/GzSakura1337/ATRI-skills) ·
+致谢: [GzSakura1337/ATRI-skills](https://github.com/GzSakura1337/ATRI-skills) ·and
      [NapCatQQ](https://github.com/NapNeko/NapCatQQ) · 《ATRI -My Dear Moments-》
 
 # QQ AI 女友机器人 — ATRI（亚托莉） 
