@@ -1,0 +1,52 @@
+# ===========================================
+# QQ AI 女友机器人 - 主配置
+# ===========================================
+
+bot:
+  name: "亚托莉"
+  admin_qq: 0  # 管理员 QQ 号, 0 表示暂无
+
+# OneBot v11 反向 WebSocket 配置
+onebot:
+  ws_host: "0.0.0.0"
+  ws_port: 8765
+  ws_path: "/onebot/v11/ws"
+
+# LLM 配置
+llm:
+  provider: "deepseek"  # deepseek | qwen
+  deepseek:
+    api_key: "${DEEPSEEK_API_KEY}"
+    base_url: "https://api.deepseek.com/v1"
+    model: "deepseek-chat"
+    temperature: 0.8
+    max_tokens: 512
+  qwen:
+    api_key: "${QWEN_API_KEY}"
+    base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+    model: "qwen-plus"
+    temperature: 0.85
+    max_tokens: 512
+
+# 角色配置
+character:
+  card_path: "config/characters/waifu.yaml"
+
+# 记忆配置
+memory:
+  short_term:
+    max_turns: 30
+  long_term:
+    min_importance: 4
+    search_top_k: 5
+    consolidate_interval: 3600
+
+# 定时任务
+scheduler:
+  morning_greeting: "08:00"
+  night_greeting: "22:30"
+  care_interval: 7200
+
+# 数据库
+database:
+  path: "data/db/bot.db"
